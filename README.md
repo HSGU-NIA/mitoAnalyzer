@@ -18,3 +18,15 @@ mitoCalc and fastMitoCalc estimate mtDNA copy number based on the observed ratio
 ### Method for *mitoCalc* and *fastMitoCalc*
 
 ### Comparison between *mitoCalc* and *fastMitoCalc*
+
+## Current Directions
+The software package was originally developed to analyze whole-genome sequencing data. We are actively investigating its applicability to exome-sequencing data. 
+
+## Citation
+Ding J*, Sidore C, Butler TJ, Wing MK, Qian Y, Meirelles O, Busonero F, Tsoi LC, Maschio A, Angius A, Kang HM, Nagaraja R, Cucca F, Abecasis GR, Schlessinger D* (2015). Assessing mitochondrial DNA variation and copy number in lymphocytes of ~2,000 Sardinians using tailored sequencing analysis tools. PLoS Genetics 11(7): e1005306.
+\*corresponding author
+
+Qian Y, Butler TJ, Opsahl-Ong K, Giroux N, Sidore C, Nagaraja R, Cucca F, Ferrucci L, Abecasis GR, Schlessinger D, Ding J*(2017). fastMitoCalc: an ultra-fast program to estimate mitochondrial DNA copy number from whole-genome sequences. Bioinformatics  
+\*corresponding author
+
+__Last update: April 14, 2017__
