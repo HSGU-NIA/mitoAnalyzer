@@ -20,7 +20,7 @@ mitoAnalyzer is a software package that provides a general approach for the anal
 
 ### Comparison between *mitoCalc* and *fastMitoCalc*
 Program | Nuclear Genome Used as Reference | Total Length of Nuclear Genome Considered | Computing Time: 1 Sample at 4x Coverage, 1 CPU | Computing Time: 50,000 Samples at 30x Coverage, 500 CPUs
---- | --- | --- | --- | ---
+:---: | :---: | :---: | :---: | :---:
 *mitoCalc* | Whole genome | 3.2 billion bases | 3 hours | 3 months
 *fastMitoCalc* | 3,000 1kb fragments (default setting) | 3 million bases | 59 seconds | 12.5 hours
 
