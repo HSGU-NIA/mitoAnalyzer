@@ -19,6 +19,12 @@ mitoCalc and fastMitoCalc estimate mtDNA copy number based on the observed ratio
 ![mitoCalc and fastMitoCalc method](/images/mitoCalc_method.jpg)
 
 ### Comparison between *mitoCalc* and *fastMitoCalc*
+Program | Nuclear Genome Used as Reference | Total Length of Nuclear Genome Considered | Computing Time: 1 Sample at 4x Coverage, 1 CPU | Computing Time: 50,000 Samples at 30x Coverage, 500 CPUs
+--- | --- | --- | --- | ---
+*mitoCalc* | Whole genome | 3.2 billion bases | 3 hours | 3 months
+*fastMitoCalc* | 3,000 1kb fragments (default setting) | 3 million bases | 59 seconds | 12.5 hours
+
+*fastMitoCalc* is over 180x faster than mitoCalc using default settings!
 
 ## Current Directions
 The software package was originally developed to analyze whole-genome sequencing data. We are actively investigating its applicability to exome-sequencing data. 
