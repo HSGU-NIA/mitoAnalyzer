@@ -7,7 +7,7 @@ mitoAnalyzer is a software package that provides a general approach for the anal
 * *mitoCaller* -- an algorithm designed specifically to identify mtDNA variants (i.e., homoplasmies and heteroplasmies)
 mitoCaller incorporates sequencing error rates at each base in a likelihood calculation and allows allele fractions at a variant site to differ among individuals. It relies on a genotype likelihood calculation, described below: 
 
- ### Genotype Likelihood Calculation
+ ### <span style="color:red"> Genotype Likelihood Calculation <\span>
  ![Genotype Likelihood Calculation](/images/mitoCaller_web.jpg)
 
 * *mitoCalc* and *fastMitoCalc* -- programs to estimate mtDNA copy number in a cell directly from sequencing data
