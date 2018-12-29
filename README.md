@@ -39,3 +39,13 @@ Qian Y, Butler TJ, Opsahl-Ong K, Giroux N, Sidore C, Nagaraja R, Cucca F, Ferruc
 [Link to article](https://www.ncbi.nlm.nih.gov/pubmed/28453676)
 
 __Last update: April 14, 2017__
+
+## Contact Information
+#### Questions and Help Requests
+If you have any bug reports or questions please send an email to Jun Ding: jun.ding@nih.gov  
+Jun Ding, Ph.D.  
+Staff Scientist  
+Translational Gerontology Branch  
+National Institute on Aging, NIH  
+251 Bayview Blvd, Ste 100, Rm 10B123  
+Baltimore, MD, 21224  
