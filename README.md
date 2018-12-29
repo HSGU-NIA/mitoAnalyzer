@@ -1,5 +1,5 @@
 # *mitoAnalyzer*
-A software package for analyses of mitochondrial DNA using sequencing data  
+A software package for analysis of mitochondrial DNA using sequencing data  
 
 ## Overview
 mitoAnalyzer is a software package that provides a general approach for the analysis of mitochondrial DNA (mtDNA) in next-generation sequencing studies, using whole-genome sequencing data. It has two components:
