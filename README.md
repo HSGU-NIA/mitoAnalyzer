@@ -1,12 +1,14 @@
 # *mitoAnalyzer*
 A software package for analysis of mitochondrial DNA using sequencing data  
 
+---
+
 ## Overview
 mitoAnalyzer is a software package that provides a general approach for the analysis of mitochondrial DNA (mtDNA) in next-generation sequencing studies, using whole-genome sequencing data. It has two components:
 
 * ***mitoCaller*** -- an algorithm designed specifically to identify mtDNA variants (i.e., homoplasmies and heteroplasmies)
 *mitoCaller* incorporates sequencing error rates at each base in a likelihood calculation and allows allele fractions at a variant site to differ among individuals. It relies on a genotype likelihood calculation, described below: 
-
+  
 ### Genotype Likelihood Calculation
 ![Genotype Likelihood Calculation](/images/mitoCaller_web.jpg)
 
@@ -26,8 +28,12 @@ Program | Nuclear Genome Used as Reference | Total Length of Nuclear Genome Cons
 
 *fastMitoCalc* is over 180x faster than *mitoCalc* using default settings!
 
+---
+
 ## Current Directions
 The software package was originally developed to analyze whole-genome sequencing data. We are actively investigating its applicability to exome-sequencing data. 
+
+---
 
 ## Citation
 Ding J*, Sidore C, Butler TJ, Wing MK, Qian Y, Meirelles O, Busonero F, Tsoi LC, Maschio A, Angius A, Kang HM, Nagaraja R, Cucca F, Abecasis GR, Schlessinger D* (2015). Assessing mitochondrial DNA variation and copy number in lymphocytes of ~2,000 Sardinians using tailored sequencing analysis tools. PLoS Genetics 11(7): e1005306.
@@ -39,6 +45,8 @@ Qian Y, Butler TJ, Opsahl-Ong K, Giroux N, Sidore C, Nagaraja R, Cucca F, Ferruc
 [Link to article](https://www.ncbi.nlm.nih.gov/pubmed/28453676)
 
 __Last update: April 14, 2017__
+
+---
 
 ## Contact Information
 #### Questions and Help Requests
