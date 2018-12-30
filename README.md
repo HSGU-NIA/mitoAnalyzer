@@ -1,5 +1,6 @@
 # *mitoAnalyzer*
 A software package for analysis of mitochondrial DNA using sequencing data  
+Contains *mitoCaller* and *mitoCalc*/*fastMitoCalc*
 
 ---
 
