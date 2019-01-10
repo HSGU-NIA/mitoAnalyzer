@@ -32,12 +32,12 @@ Program | Nuclear Genome Used as Reference | Total Length of Nuclear Genome Cons
 
 ---
 
-## Current Directions
+# Current Directions
 The software package was originally developed to analyze whole-genome sequencing data. We are actively investigating its applicability to exome-sequencing data. 
 
 ---
 
-## Citation
+# Citation
 Ding J*, Sidore C, Butler TJ, Wing MK, Qian Y, Meirelles O, Busonero F, Tsoi LC, Maschio A, Angius A, Kang HM, Nagaraja R, Cucca F, Abecasis GR, Schlessinger D* (2015). Assessing mitochondrial DNA variation and copy number in lymphocytes of ~2,000 Sardinians using tailored sequencing analysis tools. PLoS Genetics 11(7): e1005306.
 \*corresponding author  
 [Link to article](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005306)
@@ -50,8 +50,8 @@ __Last update: April 14, 2017__
 
 ---
 
-## Contact Information
-#### Questions and Help Requests
+# Contact Information
+### Questions and Help Requests
 If you have any bug reports or questions please send an email to Jun Ding: jun.ding@nih.gov  
 
 Jun Ding, Ph.D.  
