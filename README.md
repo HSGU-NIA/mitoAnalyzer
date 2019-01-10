@@ -15,9 +15,9 @@ Identification of mtDNA single nucleotide variants (homoplasmies and heteroplasm
 ![Genotype Likelihood Calculation](/images/mitoCaller_web.jpg)
 
 ## *mitoCalc* and *fastMitoCalc*
-*mitoCalc* and *fastMitoCalc* estimate mtDNA copy number using whole-genome sequencing data based on the observed ratios of sequence coverages between mtDNA and autosomal DNA
+*mitoCalc* and *fastMitoCalc* use whole-genome sequencing data to estimate mtDNA copy based on the observed ratio of sequencing coverage between mtDNA and autosomal DNA
 
-*fastMitoCalc* is an upgraded version of *mitoCalc* that estimates mtDNA copy number as accurately as *mitoCalc* (99% correlation) but is over 100 times faster, using a random collection of short nuclear DNA reads rather than the entire nuclear genome to estimate nuclear DNA read coverage. *fastMitoCalc* can rapidly analyze hundreds of thousands of genomes, thereby facilitating association studies of mtDNA copy number with quantitative traits or nuclear variants.
+*fastMitoCalc* is an upgraded version of *mitoCalc* that estimates mtDNA copy number quickly and accurately (99% correlation with *mitoCalc*, over 100x faster) using a randomly selected group of short autosomal DNA sequences (default is 3,000 regions of length 1kb) rather than the entire autosomal genome to estimate autosomal DNA sequencing coverage. *fastMitoCalc* can rapidly analyze hundreds of thousands of genomes, thereby facilitating association studies of mtDNA copy number with quantitative traits or autosomal DNA variants.
 
 ### Method for *mitoCalc* and *fastMitoCalc*
 ![mitoCalc and fastMitoCalc method](/images/mitoCalc_method.jpg)
