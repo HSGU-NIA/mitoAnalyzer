@@ -2,22 +2,22 @@
 A software package for analysis of mitochondrial DNA using sequencing data  
 Contains *mitoCaller* and *mitoCalc*/*fastMitoCalc*
 
-
+---
 
 # Overview
 mitoAnalyzer is a software package that provides a general approach for the analysis of mitochondrial DNA (mtDNA) in next-generation sequencing studies, using whole-genome sequencing data. It has two components, *mitoCaller* and *mitoCalc/fastMitoCalc*
 
 ## *mitoCaller*
 Identification of mtDNA single nucleotide variants (homoplasmies and heteroplasmies)
-*mitoCaller* incorporates sequencing error rates at each base in a likelihood calculation and allows allele fractions at a variant site to differ among individuals. It relies on a genotype likelihood calculation, described below: 
+*mitoCaller* identified mtDNA single nucleotide variants (homoplasmies and heteroplasmies) by incorporating sequencing error rates at each base in a likelihood calculation and allows allele fractions at a variant site to differ among individuals. It relies on the genotype likelihood calculation described in the graphic below: 
   
 ### Genotype Likelihood Calculation
 ![Genotype Likelihood Calculation](/images/mitoCaller_web.jpg)
 
-* ***mitoCalc*** and ***fastMitoCalc*** -- programs to estimate mtDNA copy number in a cell directly from sequencing data
-*mitoCalc* and *fastMitoCalc* estimate mtDNA copy number based on the observed ratios of sequence coverages between mtDNA and autosomal DNA
+## *mitoCalc* and *fastMitoCalc*
+*mitoCalc* and *fastMitoCalc* estimate mtDNA copy number using whole-genome sequencing data based on the observed ratios of sequence coverages between mtDNA and autosomal DNA
 
-  *fastMitoCalc* is an upgraded version of *mitoCalc* that can estimate mtDNA copy number as accurately as *mitoCalc* but is over 100 times faster. *fastMitoCalc* can rapidly analyze hundreds of thousands of genomes, thereby facilitating association studies of mtDNA copy number with quantitative traits or nuclear variants.
+*fastMitoCalc* is an upgraded version of *mitoCalc* that estimates mtDNA copy number as accurately as *mitoCalc* (99% correlation) but is over 100 times faster, using a random collection of short nuclear DNA reads rather than the entire nuclear genome to estimate nuclear DNA read coverage. *fastMitoCalc* can rapidly analyze hundreds of thousands of genomes, thereby facilitating association studies of mtDNA copy number with quantitative traits or nuclear variants.
 
 ### Method for *mitoCalc* and *fastMitoCalc*
 ![mitoCalc and fastMitoCalc method](/images/mitoCalc_method.jpg)
