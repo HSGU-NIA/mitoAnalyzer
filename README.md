@@ -5,9 +5,10 @@ Contains *mitoCaller* and *mitoCalc*/*fastMitoCalc*
 ---
 
 ## Overview
-mitoAnalyzer is a software package that provides a general approach for the analysis of mitochondrial DNA (mtDNA) in next-generation sequencing studies, using whole-genome sequencing data. It has two components:
+mitoAnalyzer is a software package that provides a general approach for the analysis of mitochondrial DNA (mtDNA) in next-generation sequencing studies, using whole-genome sequencing data. It has two components, *mitoCaller* and *mitoCalc/fastMitoCalc*
 
-* ***mitoCaller*** -- an algorithm designed specifically to identify mtDNA variants (i.e., homoplasmies and heteroplasmies)
+## *mitoCaller*
+Identification of mtDNA single nucleotide variants (homoplasmies and heteroplasmies)
 *mitoCaller* incorporates sequencing error rates at each base in a likelihood calculation and allows allele fractions at a variant site to differ among individuals. It relies on a genotype likelihood calculation, described below: 
   
 ### Genotype Likelihood Calculation
